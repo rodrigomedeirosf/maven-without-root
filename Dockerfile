@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-RUN apk add --no-cache curl tar bash procps
+RUN apk add --no-cache curl tar bash procps git
 
 ARG MAVEN_VERSION=3.6.0
 ARG USER_HOME_DIR="/home/maven"
